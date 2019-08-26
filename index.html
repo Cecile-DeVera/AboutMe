@@ -4,33 +4,33 @@
       <title>About Me</title>
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
+    <body style="background-color:pink;">
         <div class="row">
           <div class="p-3 mb-2 bg-danger text-white">
           <center><h2>About Me</h2>
           <img src="imgs/avatar.jpg" alt="avatar">
           <h3>Everything you need to know about me and my life!</h3></center>
-          </div>
+
                   <div class="panel panel-info">
                     <div class="panel-heading">
                     <div class="panel-body">
                       <!-- Centered Tabs -->
                     <ul class="nav nav-tabs nav-justified">
-                      <li class="active"><a href="#">Home</a></li>
-                      <li><a href="#">Birthplace and Family</a></li>
-                      <li><a href="#">My Hobbies</a></li>
-                      <li><a href="#">Future Plans</a></li>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#Birthplace">Birthplace and Family</a></li>
+                      <li><a href="#Hobbies">My Hobbies</a></li>
+                      <li><a href="#Future">Future Plans</a></li>
                     </ul>
                     </div>
                   </div>
-                 <div class="container fluid b-3">
 
-                  <h3>Where I was Born and my Family</h3>
+                  <div class="container fluid b-3">
+                  <div id="Birthplace"><h3>Where I was Born and my Family</h3></div>
                     <p> A long time ago, my mother and father met while they were living in the Philippines. My mom was from Manila, while my dad was from the mountains, Baquio City. How they met I am not sure, but I do know that it was love at first sight. After getting to know each other and marrying, my father decided to enroll into the US Navy where he ended up being stationed in the Navy Base in Hawaii. Soon after, my mom, my aunt and grandma moved to Honolulu, Hawaii to start a new life in the US.</p>
+                    <br>
+                    <p>As time went by, my mom and dad made my family. I am the second youngest out of 7 sisters. Yes, 7. They tried hard for a boy but alas, it was not meant to be. 
 
-
-                  <h3>My Hobbies</h3>
+                  <div id="Hobbies"><h3>My Hobbies</h3></div>
                   <ul>
                     <li>Playing Video games.</li>
                     <li>Going to the gym.</li>
@@ -40,8 +40,9 @@
                   </ul>
 
 
-                  <h3>My future plans</h3>
+                  <div id="Future"><h3>My future plans</h3></div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Neque sodales ut etiam sit amet nisl purus. Turpis cursus in hac habitasse platea. Pretium fusce id velit ut tortor pretium.<p>
+
 
                   <blockquote class="bg-info">
                     <h3>My Favorite Quote</h3>
@@ -53,5 +54,6 @@
                 </div>
                 </div>
               </div>
-            </body>
-            </html>
+        </body>
+    </head>
+</html>
