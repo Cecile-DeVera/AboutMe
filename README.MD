@@ -11,9 +11,10 @@ _This is an independent project by Epicodus to see where you are at in your codi
 ## Setup/Installation Requirements
 
 * Turn on computer
-* Clone file
+* Clone file "https://github.com/Cecile-DeVera/AboutMe.git"
 * Unzip file
 * Open file
+* View file
 
 _Everything is pretty easy to follow. Unless you do not know how to use a computer._
 
