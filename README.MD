@@ -12,13 +12,14 @@ _This is an independent project by Epicodus to see where you are at in your codi
 
 * Turn on computer
 * Clone file
+* Unzip file
 * Open file
 
 _Everything is pretty easy to follow. Unless you do not know how to use a computer._
 
 ## Known Bugs
 
-_There is a lot of bugs! A nav bar that won't navigate on the page, background color does not stretch all the way through and missing http links_
+_There is a lot of bugs! Missing some CSS stylesheet items in project._
 
 ## Support and contact details
 
